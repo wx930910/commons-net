@@ -87,6 +87,11 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
     </distributionManagement>
 
     <dependencies>
+   	<dependency>
+	  <groupId>org.mockito</groupId>
+	  <artifactId>mockito-core</artifactId>
+	  <version>3.4.6</version>
+	</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
